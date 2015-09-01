@@ -14,14 +14,15 @@ Move the set_up_project.sh script to the folder where you want to set up your pr
 bash set_up_project.sh
 ```
 
-Script will then request the project name and create a folder of said name that will contain the following folders and files:\n
-            00_logs\n
-            01_ref\n
-            02_raw_input\n
-            03_processed_input\n
-            04_final_output\n
-            05_scripts\n
-            06_test\n
-            READ_ME.txt\n
-
+Script will then request the project name and create a folder of said name that will contain the following folders and files:
+```
+  00_logs
+  01_ref          
+  02_raw_input
+  03_processed_input
+  04_final_output
+  05_scripts
+  06_test
+  READ_ME.txt
+```
 The READ_ME.txt is meant to be a data lab notebook which is updated as the project progresses.
