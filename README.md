@@ -15,13 +15,14 @@ bash set_up_project.sh
 ```
 
 Script will then request the project name and create a folder of said name that will contain the following folders and files:
-            00_logs
-            01_ref
-            02_raw_input
-            03_processed_input
-            04_final_output
-            05_scripts
-            06_test
-            READ_ME.txt
-
+```
+  00_logs
+  01_ref          
+  02_raw_input
+  03_processed_input
+  04_final_output
+  05_scripts
+  06_test
+  READ_ME.txt
+```
 The READ_ME.txt is meant to be a data lab notebook which is updated as the project progresses.
