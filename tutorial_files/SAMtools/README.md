@@ -5,44 +5,18 @@ Download this zip file and move the zipped file to your scratch directory on the
 
 The contents of this zipped folder are as follows:
 ```
-samtools_primer-master
+samtools_primer/
 |-- README.md
-|-- figs
-|   |-- ngs_overview.ai
-|   |-- ngs_overview.png
-|   |-- sam_format_example.graffle
-|   |   |-- data.plist
-|   |   `-- image1.png
-|   |-- sam_format_example.png
-|   |-- steps_overview.ai
-|   |-- steps_overview.png
-|   |-- tview.png
-|   |-- tview2.png
-|   `-- vcf.png
-`-- tutorial
-    |-- align_to_genome.sh
-    |-- alignments
-    |   |-- sim_reads_aligned.bam
-    |   |-- sim_reads_aligned.sam
-    |   |-- sim_reads_aligned.sorted.bam
-    |   `-- sim_reads_aligned.sorted.bam.bai
-    |-- generate_simulated_reads.sh
-    |-- genomes
-    |   |-- NC_008253.fna
-    |   |-- NC_008253.fna.fai
-    |   `-- NC_008253_1K.fna
-    |-- identify_variants.sh
-    |-- indexes
-    |   |-- e_coli
-    |   |-- e_coli.1.bt2
-    |   |-- e_coli.2.bt2
-    |   |-- e_coli.3.bt2
-    |   |-- e_coli.4.bt2
-    |   |-- e_coli.rev.1.bt2
-    |   `-- e_coli.rev.2.bt2
-    |-- simulated_reads
-    |   `-- sim_reads.fq
-    `-- variants
-        |-- sim_variants.bcf
-        `-- sim_variants.vcf
+|-- alignments
+|   |-- sim_reads_aligned.bam
+|   |-- sim_reads_aligned.sam
+|   |-- sim_reads_aligned.sorted.bam
+|   `-- sim_reads_aligned.sorted.bam.bai
+|-- genomes
+|   |-- NC_008253.fna
+|   |-- NC_008253.fna.fai
+|   `-- NC_008253_1K.fna
+`-- variants
+    |-- sim_variants.bcf
+    `-- sim_variants.vcf
 '''
