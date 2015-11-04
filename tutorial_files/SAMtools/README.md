@@ -19,4 +19,3 @@ samtools_primer/
 `-- variants
     |-- sim_variants.bcf
     `-- sim_variants.vcf
-'''
